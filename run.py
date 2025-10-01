@@ -32,7 +32,7 @@ plt.ylabel("Amplitude")
 plt.show()
 
 #generate a modified unit step function with a predetermined delay
-t, y= sig.modified_u(-10.5,10,-2,3,10000)
+t, y= sig.modified_u(-10,10,-2,3,10000)
 plt.figure(4)
 plt.plot(t, y)
 plt.grid(True)
