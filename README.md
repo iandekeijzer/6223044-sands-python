@@ -2,13 +2,14 @@
 
 ## Table of Contents
 1. [Introduction](#Introduction)
-2. [How to use this repository](#How-to-use-this-repository)
+2. [Contents](#Contents)
+3. [How to use this repository](#How-to-use-this-repository)
 
 
 ## Introduction
 Welcome to my repository, in this repository you shall find a few files which contain functions to generate and modify signals. All of the functions in this repository are written in python. In this README I will explain how to use these afformentioned functions.
 
-## How to use this repository
+## Contents
 This repository contains the following:
 - a file filled with python functions that describe a few different functions including:
     1. A sine wave function ```generate_sine_wave(frequency, duration, sample_rate```.
@@ -18,6 +19,8 @@ This repository contains the following:
 
 - a file with functions that run and plot the functions above.
 
-To be able to use this code you should have the numpy and matplotlib modules installed on your computer
+## How to use 
+To preface: to be able to use this code you should have the numpy and matplotlib modules installed on your computer
+
 
 
