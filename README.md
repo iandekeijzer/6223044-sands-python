@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Introduction](#Introduction)
-2. [How to use this repository](#How to use this repository)
+2. [How to use this repository](#How-to-use-this-repository)
 
 
 ## Introduction
