@@ -1,7 +1,19 @@
 import numpy as np
 import signals as sig 
 
+#testing generate_sine_wave function
+def test_generate_sine_wave():
+    t, y = sig.generate_sine_wave(4,2,10000)
+    assert len(t) == 10000
+    assert y[0] == 0
+    assert np.isclose(max(y), 1, atol=1e-6)
+
+
+
+#testing modified_sine_wave function
 def test_modified_sine_wave():
-    t, y = sig.modified_sine_wave(5, 2, 1000,amplitude=10.0)
-    assert len(t) == 1000
+    t, y = sig.modified_sine_wave(5, 2, 10000,amplitude=10.0)
+    assert len(t) == 10000
     assert y[0] == 0 
+    assert np.isclose(max(y), 10, atol=1e-6)
+    
