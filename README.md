@@ -19,6 +19,10 @@ This repository contains the following:
 
 - a file with functions that run and plot the functions above.
 
+- a toml file which should be used to install all the tools necessary for using the files in this repository
+
+- a file which contains tests to verify the signal functions
+
 - a file which was used to test if we were able to correctly, add, commit and push our files to our repository.
 ## How to use 
 To preface: to be able to use these functions you need to install the numpy and matplotlib modules onto your computer
@@ -27,5 +31,11 @@ We have two main files we should use, signals.py, which contains all the signals
 Using the functions contained within the signals file, we can open the run.py file and generate and plot signals using to matplotlib.pyplot.
 Within the run.py file you can choose your own values for each variable in the function, for example you can choose how far to delay the unit step function, or choose another frequency for the sine wave function.
 
+If needed you can also use the ```test_python_functions``` file to see if the functions work properly, if so you should see the following result:
+
+![Test result](Users/iande/pytest_succes.png)
+
 But most importantly, have fun when using this repository.
+
+
 
