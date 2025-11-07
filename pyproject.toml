@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Python project AES"
+version = "1.0.0"
+description = "With this project you can generate signals, modify them and run and plot them"
+authors = [
+    {name = "Ian de Keijzer", email = "ian.dekeijzer@hotmail.com"}
+]
+dependencies = ["numpy", "matplotlib"]
