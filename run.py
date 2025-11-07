@@ -22,7 +22,7 @@ plt.ylabel("Height")
 
 
 #generate a modified sine wave with a predetermined amplitude
-t,y = sig.modified_sine_wave(5, 2, 10000,amplitude=10.0)
+t,y = sig.modified_sine_wave(5, 2, 10000 ,amplitude=10.0)
 plt.figure(3)
 plt.plot(t, y)
 plt.grid(True)
