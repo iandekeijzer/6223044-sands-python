@@ -33,7 +33,7 @@ Within the run.py file you can choose your own values for each variable in the f
 
 If needed you can also use the ```test_python_functions``` file to see if the functions work properly, if so you should see the following result:
 
-![Test result](Users/iande/pytest_succes.png)
+![Test result](Images/pytest_succes.png)
 
 But most importantly, have fun when using this repository.
 
