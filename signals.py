@@ -107,7 +107,7 @@ def modified_u(start, finish,delay, amplitude, sample_rate):
         The amplitude values (0 for t < delay, `amplitude` for t >= delay).
     """
     t= np.linspace(start,finish,sample_rate)
-    y = np.where(t < 0, 0, amplitude)
+    y = np.where(t < 0-delay, 0, amplitude)
     return t, y
 
 
