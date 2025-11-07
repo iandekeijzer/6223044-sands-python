@@ -16,4 +16,11 @@ def test_modified_sine_wave():
     assert len(t) == 10000
     assert y[0] == 0 
     assert np.isclose(max(y), 10, atol=1e-6)
-    
+ 
+#testing unit step function
+def test_u():
+    t, y= sig.u(-10,10,3,10000)
+    assert len(t) == 10000
+    assert np.isclose(max(y),3, atol=1e-6)
+    assert y[0] == 0
+    assert y[9000] == 3
